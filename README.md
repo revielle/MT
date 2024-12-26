@@ -16,3 +16,10 @@ This repository contains the code and resources for a brain tumor classification
 - **Evaluation Metrics:**
   - Classification accuracy, F1, Precision, Recall, Confusion Matrix.
   - Explainability metrics (e.g., fidelity, sparsity, sanity checks, class-wise contrastivity).
+
+This project includes the following Jupyter notebooks:
+
+1. [MT_GANs.ipynb](MT_GANs.ipynb) - GAN-based data augmentation (Pix2Pix architecture)
+2. [MT_XAI_evaluation.ipynb](MT_XAI_evaluation.ipynb) - Evaluation of Explainable AI methods (LIME, SHAP, Grad-CAM)
+3. [MT_evaluation.ipynb](MT_evaluation.ipynb) -  CNN model evaluation (F1, Recall, Precision, Accuracy, and confusion matrices)
+4. [MT_models.ipynb](MT_models.ipynb) - TrivialAugment + Model trainings
