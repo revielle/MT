@@ -4,6 +4,7 @@ This repository contains the code and resources for a brain tumor classification
 
 ## Features
 - **Multi-class Brain Tumor Classification:** Glioma, Meningioma, Pituitary Tumor, and No Tumor.
+  - REF: Msoud Nickparvar. (2021). Brain Tumor MRI Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/2645886
 - **Data Augmentation:** 
   - Traditional (e.g., TrivialAugment)
   - Generative (GAN-based synthetic data)
