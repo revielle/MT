@@ -8,10 +8,11 @@ This repository contains the code and resources for a brain tumor classification
 - **Data Augmentation:** 
   - Traditional (e.g., TrivialAugment)
   - Generative (GAN-based synthetic data)
+  - Combined (GAN + TrivialAugment)
 - **Explainable AI (XAI):**
   - LIME for fidelity and feature importance analysis.
-  - SHAP for sparsity and local explanations.
-  - Grad-CAM for visualizing attention patterns.
+  - SHAP for local explanations, sparsity and class-wise contrastivity.
+  - Grad-CAM for visualizing attention patterns, sanity checks, SSIM.
 - **Evaluation Metrics:**
-  - Classification accuracy.
-  - Explainability metrics (e.g., fidelity, sparsity, class-wise contrastivity).
+  - Classification accuracy, F1, Precision, Recall, Confusion Matrix.
+  - Explainability metrics (e.g., fidelity, sparsity, sanity checks, class-wise contrastivity).
